@@ -13,7 +13,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizonntalInput = Input.GetAxis("Horizontal");
-        transform.Rotate(Vector3.up, horizonntalInput * rotationSpeed * Time.deltaTime);
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.Rotate(Vector3.up, horizontalInput * rotationSpeed * Time.deltaTime);
     }
 }
