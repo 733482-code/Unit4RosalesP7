@@ -355,7 +355,7 @@ MonoBehaviour:
   explosionForce: 5
   explosionRadius: 3
   hasPowerup: 1
-  currentPowerUp: 3
+  currentPowerUp: 0
   powerupIndicator: {fileID: 1323693468}
   rocketPrefab: {fileID: 8647683994879308592, guid: e6b7d5b5528ef764f89c4d74c07dc188, type: 3}
 --- !u!1 &1211016355
