@@ -82,7 +82,7 @@ public class SpawnManager : MonoBehaviour
     {
         for (int i = 0; i < amount; i++)
         {
-            int randomMini = randomMini.Range(0, miniEnemyPrefabs.Length);
+            int randomMini = Random.Range(0, miniEnemyPrefabs.Length);
             Instantiate(miniEnemyPrefabs[randomMini], GenerateSpawnPosition(), miniEnemyPrefabs[randomMini].transform.rotation);
         }
     }

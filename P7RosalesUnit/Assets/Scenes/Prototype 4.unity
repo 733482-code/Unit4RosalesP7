@@ -350,12 +350,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  hangTime: 3
-  smashSpeed: 3
-  explosionForce: 5
-  explosionRadius: 3
-  hasPowerup: 1
-  currentPowerUp: 0
+  hangTime: 1
+  smashSpeed: 2
+  explosionForce: 10
+  explosionRadius: 5
+  hasPowerup: 0
+  currentPowerUp: 2
   powerupIndicator: {fileID: 1323693468}
   rocketPrefab: {fileID: 8647683994879308592, guid: e6b7d5b5528ef764f89c4d74c07dc188, type: 3}
 --- !u!1 &1211016355
@@ -705,6 +705,11 @@ MonoBehaviour:
   - {fileID: 7573918918319259939, guid: 0834f74521b3703429f1e03261430760, type: 3}
   enemyCount: 3
   waveNumber: 1
+  bossPrefabs: {fileID: 4523335295404951096, guid: 7c39abc7d527bdd4088e2f9197d17aad, type: 3}
+  miniEnemyPrefabs:
+  - {fileID: 524704203311464107, guid: 8c8fe652549af3146b486c64f169a5b9, type: 3}
+  - {fileID: 8138530058533778065, guid: d031d6271a8fd6647a6fd308d6c20fc3, type: 3}
+  bossRound: 2
 --- !u!4 &1362847978
 Transform:
   m_ObjectHideFlags: 0
